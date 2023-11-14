@@ -14,3 +14,31 @@ npx prisma migrate dev
 
 npm start
 ```
+```bash
+## Buat New Database
+testprisma
+```
+
+```bash
+## Api
+http://localhost:5000/
+```
+
+```bash
+## Routes
+POST    |  http://localhost:5000/
+GET     |  http://localhost:5000/
+DELETE  |  http://localhost:5000/:id
+UPDATE  |  http://localhost:5000/:id
+```
+
+```bash
+## Response
+success          |  200
+serverError      |  500
+notFound         |  404
+invalidInput     |  400
+unauthorized     |  401
+forbidden        |  403
+conflict         |  409
+```
